@@ -1,0 +1,87 @@
+/* 
+
+
+
+
+/* General Styling */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:rgb(36, 51, 79);
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color:beige;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  color:rgb(41, 41, 116);
+  text-align: center;
+ 
+}
+
+/* Specific Page Styling */
+
+/* index.html */
+/* Add specific styles for the homepage */
+
+/* registration.html */
+/* Add specific styles for the registration page */
+
+/* order.html */
+/* Add specific styles for the order page
+
+/* styles.css */
+
+
+body {
+    background-color:rgb(162, 183, 189)/* Change the background color here */
+  } */
+
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color:cadetblue;
+    color:azure;
+    border: none;
+    cursor: pointer;
+  }
+
+#password-strength-message,
+#password-match-message {
+  color:rgb(211, 6, 6);
+  margin-top: 5px;
+
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form select {
+
+  border-color:rgb(186, 201, 201);
+  border-radius:inherit;
+  
+}

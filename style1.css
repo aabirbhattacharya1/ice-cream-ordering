@@ -1,0 +1,48 @@
+h1 {
+     color:rgb(91, 15, 86);
+     text-align:center;
+     font-size:xx-large;
+     font-style: italic;
+}
+  
+header {
+     background-color:rgb(165, 71, 134);
+     padding:20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:white ;
+  }
+  
+p{
+    color: rgb(24, 20, 20);
+    font-style:oblique ;
+}
+
+  
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+
+/* 
+footer {
+    background-color:white;
+    margin: 0q;
+} */
+

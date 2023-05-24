@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sweet Life - Registration</title>
+  <link rel="stylesheet" type="text/css" href="style11.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/registration.html">Registration</a></li>
+        <li><a href="/order.html">Place Order</a></li>
+      </ul>
+    </nav>
+  </header>
+  <style>
+    body {
+      background-image: url("background img7.png");
+      background-size: cover;
+      background-position: center;
+      /* Additional CSS properties for background */
+    }
+  </style>
+  
+  <main>
+    <h1>Registration</h1>
+    <form id="registration-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <title>Password Verification</title>
+
+  <head>
+    <title>Password Verification</title>
+    <script>
+      function validatePassword() {
+        var password = document.getElementById("password");
+        var confirmPassword = document.getElementById("confirm-password");
+        var strengthMessage = document.getElementById("password-strength-message");
+        var matchMessage = document.getElementById("password-match-message");
+  
+        // Validate password strength
+        var strongRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+        if (strongRegex.test(password.value)) {
+          strengthMessage.innerHTML = "Strong password";
+        } else {
+          strengthMessage.innerHTML = "Password must be at least 8 characters long and contain at least one lowercase letter, one uppercase letter, one digit, and one special character (@ $ ! % * ? &)";
+        }
+  
+        // Validate password match
+        if (password.value === confirmPassword.value) {
+          matchMessage.innerHTML = "";
+        } else {
+          matchMessage.innerHTML = "Passwords do not match";
+        }
+      }
+    </script>
+  </head>
+  <body>
+
+    <p><label for="password">Password:</label>
+    <input type="password" id="password" name="password" required onkeyup="validatePassword()"><br>
+    <p id="password-strength-message"></p>
+    </p>
+  
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" required onkeyup="validatePassword()"><br>
+    <p id="password-match-message"></p>
+  </body>
+     
+      
+        
+        <p>  
+            <label> Gender:</label>
+            Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female " required>  </p> 
+       
+       
+      
+      <!-- <label for="gender">Gender:</label>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+      </div> -->
+      
+      <p><label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <p> Address:<textarea name="address"  id="address" cols="34" rows="1" ></textarea></p>
+      </p>
+      
+      <p><label for="favorite-flavor">Favorite Ice Cream Flavor:</label>
+      <select id="favorite-flavor" required>
+        <option value="">Select Flavor</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="vanilla">Vanilla</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="mint-chocolate-chip">Mint Chocolate Chip</option>
+      </select>
+      </p>
+      
+      <input type="submit" value="Register">
+    </form>
+  </main>
+
+  <script src="script11.js"></script>
+</body>
+</html>
+
