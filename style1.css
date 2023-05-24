@@ -40,9 +40,22 @@ h2 {
 }
   
 
-/* 
 footer {
-    background-color:white;
-    margin: 0q;
-} */
+  background-color: #f8f8f8;
+  padding: 20px;
+}
 
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #666;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-text {
+  color: #666;
+  font-size: 14px;
+}
