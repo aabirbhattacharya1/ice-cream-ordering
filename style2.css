@@ -74,4 +74,36 @@
   input[type="submit"]:hover {
     background-color: #555;
   }
+  body {
+    font-family: Arial, sans-serif;
+  }
 
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  form label {
+    font-weight: bold;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-check-inline {
+    margin-right: 10px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+  }
